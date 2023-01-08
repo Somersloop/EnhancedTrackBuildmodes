@@ -3,23 +3,30 @@
 	"Version": 1,
 	"VersionName": "1.0.0",
 	"SemVersion": "1.0.0",
-	"FriendlyName": "EnhancedTrackBuildmodes",
+	"FriendlyName": "Enhanced Track BuildModes",
 	"Description": "Add some enhanced buildmodes for railway tracks in Satisfactory",
 	"Category": "Modding",
 	"CreatedBy": "Somersloop",
-	"CreatedByURL": "",
-	"DocsURL": "",
+	"CreatedByURL": "https://github.com/Somersloop",
+	"DocsURL": "https://github.com/Somersloop/EnhancedTrackBuildmodes",
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": false,
+        "Plugins": [
+          {
+            "Name": "SML",
+            "SemVersion": "^3.4.1",
+            "Enabled": true
+          }
+        ],
         "Modules": [
-        {
+          {
             "Name": "EnhancedTrackBuildmodes",
             "Type": "Runtime",
             "LoadingPhase": "Default"
-        }
+          }
 	]
 }
